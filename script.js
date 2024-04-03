@@ -938,22 +938,22 @@ Steven još uvijek izrađuje svoj kalkulator napojnice, koristeći ista pravila 
 
 // console.log(exports["schema"]["indexes"][0]["columns"][0]);
 
-const narudzba1 = {
-  brojRacuna: 12431234,
-  korisnickoIme: "Jure",
-  adresaKorisnika: "Split",
-  artikli: {
-    hrana: {
-      naziv: "Jabuka",
-    },
-    alkohol: {
-      naziv: "Pivo",
-    },
-  },
-};
+// const narudzba1 = {
+//   brojRacuna: 12431234,
+//   korisnickoIme: "Jure",
+//   adresaKorisnika: "Split",
+//   artikli: {
+//     hrana: {
+//       naziv: "Jabuka",
+//     },
+//     alkohol: {
+//       naziv: "Pivo",
+//     },
+//   },
+// };
 
-for (svojstvo in narudzba1) {
-  console.log(narudzba1[svojstvo]);
-}
+// for (svojstvo in narudzba1) {
+//   console.log(narudzba1[svojstvo]);
+// }
 
-console.log(narudzba1["brojRacuna"]);
+// console.log(narudzba1["brojRacuna"]);
