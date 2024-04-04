@@ -1,2 +1,3 @@
 Hej bok Jan
 Ovo je test 
+Ovo je dodano kroz main
